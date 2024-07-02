@@ -8,7 +8,6 @@
 - Question Generation: Utilizes OpenAI API and LangChain to generate interview questions based on extracted content.
 - Answer Generation: Generates corresponding answers using a language model pipeline integrated with OpenAI API.
 - CSV Export: Saves generated questions and answers in a structured CSV format for easy analysis and sharing.
-- User Interface: Provides a user-friendly interface using Jinja2 templates for file upload, processing, and download of generated Q&A files.
 
 ### Dependencies:
 - FastAPI: Web framework for building APIs with Python.
