@@ -1,4 +1,4 @@
-# Interview-Question-Creator-Project (Generative AI Project)
+# Interview-Question-Answer-Creator-Project (Generative AI Project)
 ## Overview
 -The Interview Question Creator is a web application that automates the generation of interview questions and answers from PDF documents. It utilizes FastAPI for the backend, LangChain for document processing, and OpenAI API for generative AI capabilities.
 
