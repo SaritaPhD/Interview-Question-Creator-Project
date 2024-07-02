@@ -1,4 +1,19 @@
 # Interview-Question-Creator-Project (Generative AI Project)
+## Overview
+-The Interview Question Creator is a web application that automates the generation of interview questions and answers from PDF documents. It utilizes FastAPI for the backend, LangChain for document processing, and OpenAI API for generative AI capabilities.
+
+### Features
+- File Upload: Users can upload PDF documents containing interview-relevant content.
+- Automated Processing: LangChain processes uploaded PDFs to extract key information.
+- Question Generation: Utilizes OpenAI API and LangChain to generate interview questions based on extracted content.
+- Answer Generation: Generates corresponding answers using a language model pipeline integrated with OpenAI API.
+- CSV Export: Saves generated questions and answers in a structured CSV format for easy analysis and sharing.
+- User Interface: Provides a user-friendly interface using Jinja2 templates for file upload, processing, and download of generated Q&A files.
+
+### Dependencies:
+- FastAPI: Web framework for building APIs with Python.
+- LangChain: Library for document processing and text generation.
+- OpenAI API: Provides generative capabilities for question and answer generation.
 
 ### How to run?
 
