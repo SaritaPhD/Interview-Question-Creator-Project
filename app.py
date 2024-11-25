@@ -63,7 +63,7 @@ async def chat(request: Request, pdf_filename: str = Form(...)):
     output_file = get_csv(pdf_filename)
     response_data = jsonable_encoder(json.dumps({"output_file": output_file}))
     res = Response(response_data)
-    return res
+    return res 
 
 
 
