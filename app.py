@@ -8,7 +8,7 @@ import os
 import aiofiles
 import json
 import csv
-from src.helper import llm_pipeline
+from src.helper import llm_pipelines
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
